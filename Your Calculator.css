@@ -1,0 +1,134 @@
+body{background:yellow}
+.title{
+    text-align:center;
+    font-size:40pt;
+    border:2px dashed black;
+    color:aquamarine;
+    border-radius:10px;
+    width:400px;
+    height:70px;
+    font-weight:bolder;
+    background-color:beige;
+    margin:0 400px;
+    position:absolute;
+    top:20px;
+}
+.num1{
+    position:absolute;
+    font-size:25pt;
+    font-weight:700;
+    color:black;
+    left:300px;
+    top:130px;
+}
+.textbox1{
+    position:absolute;
+    border:2px solid black;
+    border-radius:7px;
+    text-align:center;
+    color:blueviolet;
+    background-color:antiquewhite;
+    width:280px;
+    height:20px;
+    left:640px;
+    top:139px;
+    font-size:15pt;
+}
+.num2{
+    position:absolute;
+    font-size:25pt;
+    font-weight:700;
+    color:black;
+    left:300px;
+    top:200px;
+}
+.textbox2{
+    position:absolute;
+    border:2px solid black;
+    border-radius:7px;
+    text-align:center;
+    color:orange;
+    background-color:antiquewhite;
+    width:245px;
+    height:20px;
+    left:675px;
+    top:209px;
+    font-size:15pt;
+}
+.addition{
+    position:absolute;
+    width:50px;
+    height:40px;
+    color:white;
+    background-color:steelblue;
+    border:2px solid black;
+    border-radius:5px;
+    font-size:20pt;
+    left:470px;
+    top:280px;
+}
+.subtraction{
+    position:absolute;
+    width:50px;
+    height:40px;
+    color:white;
+    background-color:steelblue;
+    border:2px solid black;
+    border-radius:5px;
+    font-size:20pt;
+    left:550px;
+    top:280px;
+}
+.multiplication{
+    position:absolute;
+    width:50px;
+    height:40px;
+    color:white;
+    background-color:steelblue;
+    border:2px solid black;
+    border-radius:5px;
+    font-size:20pt;
+    left:630px;
+    top:280px;
+}
+.division{
+    position:absolute;
+    width:50px;
+    height:40px;
+    color:white;
+    background-color:steelblue;
+    border:2px solid black;
+    border-radius:5px;
+    font-size:20pt;
+    left:710px;
+    top:280px;
+}
+.navigation input:hover{
+    transform:scale(1.2);
+}
+.result{
+    position:absolute;
+    font-size:40pt;
+    left:315px;
+    top:360px;
+    border:0px solid black;
+    width:600px;
+    height:60px;
+    text-align:center;
+}
+.exit{
+    position:absolute;
+    width:450px;
+    height:40px;
+    background-color:red;
+    color:beige;
+    font-weight:500;
+    font-size:20pt;
+    border:2px solid black;
+    border-radius:7px;
+    left:390px;
+    top:460px;
+}
+.exit:hover{
+    transform:scale(1.2);
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Your Calculator</title>
+        <link rel="stylesheet" type="text/css" href="Your Calculator.css">
+    </head>
+    <link rel="shortcut icon" href="Your Calculator.png"
+    <body>
+        <table border="1">
+        <div class="title">Your Calculator</div>
+        <div class="num1">Enter the first number:</div>
+        <input class="textbox1" type="number" value="The first number" id="num1" />
+        <div class="num2">Enter the second number:</div>
+        <input class="textbox2" type="number" value="The second number" id="num2" />
+        <nav class="navigation">
+            <input type="button" value="+" class="addition" onclick="Your_Calculator1('a');" />
+            <input type="button" value="-" class="subtraction" onclick="Your_Calculator2('s');" />
+            <input type="button" value="x" class="multiplication" onclick="Your_Calculator3('m');" />
+            <input type="button" value="÷" class="division" onclick="Your_Calculator4('d');" />
+        </nav>
+        <label class="result" id="result">0</label>
+        <input type="button" value="Exit" class="exit" onclick="window.close();" />
+        <script src="Your Calculator.js"></script>
+        </table>
+    </body>
+</html>
